@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAQ PAGE.Designer.cs">
+      <DependentUpon>FAQ PAGE.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAQ PAGE.resx">
+      <DependentUpon>FAQ PAGE.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +97,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TC_Logos-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14_900+ Inclusive Diversity Fotografías de stock, fotos e imágenes libres de derechos.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2993685_brand_brands_google_logo_logos_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11244080_x_twitter_elon musk_twitter new logo_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5402435_account_profile_user_avatar_man_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\622405_lock_security_password_protect_safety_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5402395_encryption_lock_password_security_key_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3994415_account_avatar_person_profile_user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1814089_account_user_person_profile_avatar_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1904661_building_dashboard_default_home_house_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2931150_building_home_homepage_house_architecture_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2931147_user_face_avatar_account_head_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1814093_calendar_events_schedule_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_25dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_month_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inbox_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happy-work-team-cheering-and-celebrating-at-meeting-team-collaboration-ezgif.com-resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happy-work-team-cheering-and-celebrating-at-meeting-team-collaboration-ezgif.com-resize1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happy-work-team-cheering-and-celebrating-at-meeting-team-collaboration-ezgif.com-resize2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3967545[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People-Question[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rb_2148198234.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

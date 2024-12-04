@@ -10,29 +10,19 @@ using System.Windows.Forms;
 
 namespace software_Engineering_4
 {
-    public partial class Form1 : Form
+    public partial class FAQ_PAGE : Form
     {
-        public Form1()
+        public FAQ_PAGE()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void label12_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void label13_Click(object sender, EventArgs e)
         {
 
         }
