@@ -29,7 +29,7 @@ namespace software_Engineering_4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            textBox4.PasswordChar = '*';
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -50,5 +50,28 @@ namespace software_Engineering_4
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dashboard dashboard = new dashboard();
+            dashboard.Show();
+            this.Hide();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+
+        {
+            if (checkBox1.Checked)
+            {
+                textBox4.PasswordChar = '\0'; // Show the password
+            }
+            else
+            {
+                textBox4.PasswordChar = '*'; // Hide the password with masking
+            }
+        }
+
     }
 }
+
+

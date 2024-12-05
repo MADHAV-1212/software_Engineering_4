@@ -32,7 +32,13 @@ namespace software_Engineering_4
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -48,29 +54,23 @@ namespace software_Engineering_4
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -99,9 +99,70 @@ namespace software_Engineering_4
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1341, 987);
+            this.panel1.Size = new System.Drawing.Size(1368, 987);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.DarkRed;
+            this.button4.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.OldLace;
+            this.button4.Location = new System.Drawing.Point(838, 819);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(112, 31);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Learn More";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.OldLace;
+            this.label12.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Firebrick;
+            this.label12.Location = new System.Drawing.Point(223, 775);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(507, 42);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "Find answers to the most commonly asked questions about \r\nTogether Culture Cambri" +
+    "dge";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.DarkRed;
+            this.label11.Location = new System.Drawing.Point(116, 711);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(545, 47);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "\"Your Questions, Answered!\"";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkRed;
+            this.button1.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.OldLace;
+            this.button1.Location = new System.Drawing.Point(838, 198);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 31);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Join us";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.OldLace;
+            this.label6.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Firebrick;
+            this.label6.Location = new System.Drawing.Point(223, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(654, 84);
+            this.label6.TabIndex = 3;
+            this.label6.Text = resources.GetString("label6.Text");
             // 
             // button3
             // 
@@ -114,6 +175,18 @@ namespace software_Engineering_4
             this.button3.TabIndex = 10;
             this.button3.Text = "Discover";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DarkRed;
+            this.label5.Location = new System.Drawing.Point(116, 19);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(775, 47);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Welcome to Together Culture Cambridge!";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label10
             // 
@@ -277,79 +350,6 @@ namespace software_Engineering_4
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DarkRed;
-            this.label5.Location = new System.Drawing.Point(116, 19);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(775, 47);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Welcome to Together Culture Cambridge!";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.OldLace;
-            this.label6.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Firebrick;
-            this.label6.Location = new System.Drawing.Point(223, 90);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(654, 84);
-            this.label6.TabIndex = 3;
-            this.label6.Text = resources.GetString("label6.Text");
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.OldLace;
-            this.button1.Location = new System.Drawing.Point(838, 198);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 31);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Join us";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.DarkRed;
-            this.label11.Location = new System.Drawing.Point(116, 711);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(545, 47);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "\"Your Questions, Answered!\"";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.OldLace;
-            this.label12.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Firebrick;
-            this.label12.Location = new System.Drawing.Point(223, 775);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(507, 42);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "Find answers to the most commonly asked questions about \r\nTogether Culture Cambri" +
-    "dge";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.DarkRed;
-            this.button4.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.OldLace;
-            this.button4.Location = new System.Drawing.Point(838, 819);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(112, 31);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Learn More";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.LightGray;
@@ -375,129 +375,37 @@ namespace software_Engineering_4
             this.panel3.TabIndex = 14;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // label13
+            // label28
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(4, 41);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(338, 66);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "\"What\'s New at Together \r\nCulture\"";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(33, 812);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(312, 76);
+            this.label28.TabIndex = 15;
+            this.label28.Text = "Save the date! Our Cultural Food Festival is \r\nhappening next month, showcasing d" +
+    "iverse\r\n cuisines from around the world. Don’t miss\r\n this delicious celebration" +
+    " of diversity..";
             // 
-            // label14
+            // label27
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(24, 153);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(288, 46);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "Together Culture Hosts Annual\r\nCommunity Gala";
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(24, 777);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(305, 23);
+            this.label27.TabIndex = 14;
+            this.label27.Text = "Cultural Food Festival Scheduled";
             // 
-            // label15
+            // label26
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(33, 207);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(330, 95);
-            this.label15.TabIndex = 2;
-            this.label15.Text = resources.GetString("label15.Text");
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(3, 156);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(27, 23);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "1.";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(3, 318);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(27, 23);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "2.";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(24, 318);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(339, 23);
-            this.label18.TabIndex = 5;
-            this.label18.Text = "New Mentorship Program Launched";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(33, 354);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(321, 95);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "We\'re thrilled to announce the launch of our \r\nnew mentorship program! This initi" +
-    "ative\r\n connects experienced professionals with\r\n aspiring individuals, fosterin" +
-    "g personal\r\n and professional growth.";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(3, 472);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(27, 23);
-            this.label20.TabIndex = 7;
-            this.label20.Text = "3.";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(24, 472);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(300, 46);
-            this.label21.TabIndex = 8;
-            this.label21.Text = "Sustainability Workshop a Huge\r\n Success";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(24, 529);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(338, 76);
-            this.label22.TabIndex = 9;
-            this.label22.Text = "Our recent workshop on sustainable living saw\r\n a fantastic turnout! Attendees le" +
-    "arned practical\r\n tips on reducing waste and adopting\r\n eco-friendly practices.";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(3, 631);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(27, 23);
-            this.label23.TabIndex = 10;
-            this.label23.Text = "4.";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(24, 631);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(303, 23);
-            this.label24.TabIndex = 11;
-            this.label24.Text = "Partnership with Local Charities";
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(3, 777);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(27, 23);
+            this.label26.TabIndex = 13;
+            this.label26.Text = "5.";
             // 
             // label25
             // 
@@ -511,37 +419,129 @@ namespace software_Engineering_4
     "o\r\n support underprivileged families this \r\nholiday season. Stay tuned for detai" +
     "ls\r\n on how you can contribute.";
             // 
-            // label26
+            // label24
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(3, 777);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(27, 23);
-            this.label26.TabIndex = 13;
-            this.label26.Text = "5.";
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(24, 631);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(303, 23);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "Partnership with Local Charities";
             // 
-            // label27
+            // label23
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(24, 777);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(305, 23);
-            this.label27.TabIndex = 14;
-            this.label27.Text = "Cultural Food Festival Scheduled";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(3, 631);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(27, 23);
+            this.label23.TabIndex = 10;
+            this.label23.Text = "4.";
             // 
-            // label28
+            // label22
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(33, 812);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(312, 76);
-            this.label28.TabIndex = 15;
-            this.label28.Text = "Save the date! Our Cultural Food Festival is \r\nhappening next month, showcasing d" +
-    "iverse\r\n cuisines from around the world. Don’t miss\r\n this delicious celebration" +
-    " of diversity..";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(24, 529);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(338, 76);
+            this.label22.TabIndex = 9;
+            this.label22.Text = "Our recent workshop on sustainable living saw\r\n a fantastic turnout! Attendees le" +
+    "arned practical\r\n tips on reducing waste and adopting\r\n eco-friendly practices.";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(24, 472);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(300, 46);
+            this.label21.TabIndex = 8;
+            this.label21.Text = "Sustainability Workshop a Huge\r\n Success";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(3, 472);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(27, 23);
+            this.label20.TabIndex = 7;
+            this.label20.Text = "3.";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(33, 354);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(321, 95);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "We\'re thrilled to announce the launch of our \r\nnew mentorship program! This initi" +
+    "ative\r\n connects experienced professionals with\r\n aspiring individuals, fosterin" +
+    "g personal\r\n and professional growth.";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(24, 318);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(339, 23);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "New Mentorship Program Launched";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(3, 318);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(27, 23);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "2.";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(3, 156);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(27, 23);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "1.";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Cambria", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(33, 207);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(330, 95);
+            this.label15.TabIndex = 2;
+            this.label15.Text = resources.GetString("label15.Text");
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Cambria", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(24, 153);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(288, 46);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Together Culture Hosts Annual\r\nCommunity Gala";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(4, 41);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(338, 66);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "\"What\'s New at Together \r\nCulture\"";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // dashboard
             // 

@@ -121,6 +121,9 @@
   <data name="school_24dp_000000_FILL0_wght400_GRAD0_opsz241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\school_24dp_000000_FILL0_wght400_GRAD0_opsz241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rb_2148198234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rb_2148198234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="11244080_x_twitter_elon musk_twitter new logo_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\11244080_x_twitter_elon musk_twitter new logo_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,7 +202,7 @@
   <data name="622405_lock_security_password_protect_safety_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\622405_lock_security_password_protect_safety_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rb_2148198234" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rb_2148198234.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngtree-red-pastel-aesthetic-vector-background-picture-image_3872135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-red-pastel-aesthetic-vector-background-picture-image_3872135.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

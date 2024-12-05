@@ -295,6 +295,16 @@ namespace software_Engineering_4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngtree_red_pastel_aesthetic_vector_background_picture_image_3872135 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-red-pastel-aesthetic-vector-background-picture-image_3872135", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rb_2148198234 {
             get {
                 object obj = ResourceManager.GetObject("rb_2148198234", resourceCulture);

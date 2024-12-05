@@ -58,6 +58,12 @@
     <Compile Include="FAQ PAGE.Designer.cs">
       <DependentUpon>FAQ PAGE.cs</DependentUpon>
     </Compile>
+    <Compile Include="forgot_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgot_password.Designer.cs">
+      <DependentUpon>forgot_password.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FAQ PAGE.resx">
       <DependentUpon>FAQ PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgot_password.resx">
+      <DependentUpon>forgot_password.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -175,6 +184,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\rb_2148198234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-red-pastel-aesthetic-vector-background-picture-image_3872135.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
