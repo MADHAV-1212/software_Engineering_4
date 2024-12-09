@@ -71,7 +71,21 @@ namespace software_Engineering_4
             }
         }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Create an instance of the Dashboard form
+            forgot_password form2 = new forgot_password();
+            form2.Show();
+
+            // Show the Dashboard form
+
+
+            // Optionally, hide or close the current form
+            this.Hide(); // Hides the FAQ_PAGE form
+                         // this.Close(); // Use this if you want to close FAQ_PAGE entirely
+        }
     }
-}
+    }
+
 
 

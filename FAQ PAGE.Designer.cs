@@ -119,6 +119,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::software_Engineering_4.Properties.Resources.inbox_24dp_000000_FILL0_wght400_GRAD0_opsz24;
             this.pictureBox5.Location = new System.Drawing.Point(25, 352);
             this.pictureBox5.Name = "pictureBox5";
@@ -129,6 +130,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::software_Engineering_4.Properties.Resources.calendar_month_24dp_000000_FILL0_wght400_GRAD0_opsz24;
             this.pictureBox4.Location = new System.Drawing.Point(25, 270);
             this.pictureBox4.Name = "pictureBox4";
@@ -139,6 +141,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::software_Engineering_4.Properties.Resources.home_24dp_000000_FILL0_wght400_GRAD0_opsz24;
             this.pictureBox3.Location = new System.Drawing.Point(20, 186);
             this.pictureBox3.Name = "pictureBox3";
@@ -149,6 +152,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::software_Engineering_4.Properties.Resources.account_circle_30dp_000000_FILL0_wght400_GRAD0_opsz24;
             this.pictureBox2.Location = new System.Drawing.Point(20, 108);
             this.pictureBox2.Name = "pictureBox2";
@@ -160,6 +164,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::software_Engineering_4.Properties.Resources.TC_Logos_01;
             this.pictureBox1.Location = new System.Drawing.Point(2, 3);
             this.pictureBox1.Name = "pictureBox1";
@@ -167,6 +172,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // label5
             // 
