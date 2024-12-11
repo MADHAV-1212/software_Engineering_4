@@ -12,6 +12,7 @@ namespace software_Engineering_4
 {
     public partial class Form1 : Form
     {
+        private string connectionString = "Data Source=10.50.118.102;Persist Security Info=True;User ID=sa;Password=VeryStr0ngP@ssw0rd;Encrypt=False;";
         public Form1()
         {
             InitializeComponent();

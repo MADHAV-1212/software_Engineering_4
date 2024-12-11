@@ -197,5 +197,8 @@
   <ItemGroup>
     <None Include="Resources\pngtree-red-pastel-aesthetic-vector-background-picture-image_3872135.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4470662_app_back_mobile_ui_ux_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

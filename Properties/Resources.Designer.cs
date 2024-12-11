@@ -164,6 +164,16 @@ namespace software_Engineering_4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4470662_app_back_mobile_ui_ux_icon {
+            get {
+                object obj = ResourceManager.GetObject("4470662_app_back_mobile_ui_ux_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5402395_encryption_lock_password_security_key_icon {
             get {
                 object obj = ResourceManager.GetObject("5402395_encryption_lock_password_security_key_icon", resourceCulture);

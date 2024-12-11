@@ -70,6 +70,36 @@ namespace software_Engineering_4
             this.Hide(); // Hides the FAQ_PAGE form
                          // this.Close(); // Use this if you want to close FAQ_PAGE entirely
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+        
+        {
+            // Create an instance of Form1
+            Form1 form1 = new Form1();
+
+            // Show Form1
+            form1.Show();
+
+            // Optionally, hide or close the current form
+            this.Hide(); // Hides the current dashboard form
+                         // this.Close(); // Use this if you want to close the dashboard form completely
+        }
+
+    }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            // Create an instance of Form1
+            dashboard form1 = new dashboard();
+
+            // Show Form1
+            form1.Show();
+
+            // Optionally, hide or close the current form
+            this.Hide(); // Hides the current dashboard form
+                         // this.Close(); // Use this if you want to close the dashboard form completely
+        }
     }
     }
 
